@@ -32,12 +32,8 @@ class ImageViewController: UICollectionViewController, UIImagePickerControllerDe
     
     func setupViews() {
         self.title = "Image Viewer"
-        addDummyView(items: self.images)
         floatingButton()
-        
-        if self.images.count > 0{
-            self.dummyView!.isHidden = true
-        }
+    
 
     }
 
