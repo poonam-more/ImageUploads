@@ -1,11 +1,10 @@
 
-
-Image Uploads
+## Image Uploads
 
 
 Image upload project allows user to upload images from gallery of iPhone devices
 
-##Features
+## Features
 - User can upload imgages to cloud using Cloudinary SDK
 - Collection of photos uploded
 
