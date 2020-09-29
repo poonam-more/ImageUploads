@@ -8,14 +8,22 @@
 
 import UIKit
 import CoreData
+import Cloudinary
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    open var cloudinary: CLDCloudinary!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       // let config = CLDConfiguration(cloudName: Constants.cloudinary_name, secure: true)
+
+        let config = CLDConfiguration(cloudName: Constants.cloudinary_name, apiKey: Constants.api_key)
+        cloudinary = CLDCloudinary(configuration: config)
+
+        
         return true
     }
 
