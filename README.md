@@ -1,7 +1,7 @@
 
-============================
+=============
 Image Uploads
-============================
+=============
 
 Image upload project allows user to upload images from gallery of iPhone devices
 
