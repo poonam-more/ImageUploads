@@ -10,7 +10,8 @@ import UIKit
 
 class UploadsCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var image: UIImageView!
-    @IBOutlet weak var progress: UIProgressView!
+    @IBOutlet weak var imageSel: UIImageView!
+    @IBOutlet weak var progressBarView: UIProgressView!
     @IBOutlet weak var opaqueView: UIView!
+    @IBOutlet weak var testLabel: UILabel!
 }

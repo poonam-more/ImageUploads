@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import Cloudinary
+import UIKit
+
+class NetworkHandler{
+    
+    //MARK: Upload Images to Cloudinary cloud
+    static func upload(cloudinary: CLDCloudinary, url: URL) -> CLDUploadRequest {
+
+        return cloudinary.createUploader().upload(url: url, uploadPreset: Constants.upload_preset)
+        
+    }
+    
+    
+}
